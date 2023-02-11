@@ -1,0 +1,415 @@
+.body{
+  background-color: black;
+}
+.header{
+    position: relative;
+}
+.header-logo{
+    
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+}
+.header-text{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-top: -10px;
+    left: 290px;
+}
+.header-logo2{
+    position: absolute;
+    margin-top: 20px;
+    
+}
+.text2{
+    line-height: 35px;
+}
+.fon-niz{
+  border-radius: 20px;
+  position: absolute;
+  top: 170px;
+}
+.header-logol{
+  border-radius: 15px;
+}
+/* Hide the default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+}
+
+.checkmark {
+  position: relative;
+  top: 55px;
+  left: 1255px;
+  height: 1.3em;
+  width: 1.3em;
+}
+
+.checkmark span {
+  width: 32px;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.checkmark span:nth-child(1) {
+  top: 10%;
+}
+
+.checkmark span:nth-child(2) {
+  top: 50%;
+}
+
+.checkmark span:nth-child(3) {
+  top: 90%;
+}
+
+.container input:checked + .checkmark span:nth-child(1) {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  -webkit-transform: translateY(-50%) rotate(45deg);
+  -moz-transform: translateY(-50%) rotate(45deg);
+  -ms-transform: translateY(-50%) rotate(45deg);
+  -o-transform: translateY(-50%) rotate(45deg);
+}
+
+.container input:checked + .checkmark span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+  -webkit-transform: translateY(-50%) rotate(-45deg);
+  -moz-transform: translateY(-50%) rotate(-45deg);
+  -ms-transform: translateY(-50%) rotate(-45deg);
+  -o-transform: translateY(-50%) rotate(-45deg);
+}
+
+.container input:checked + .checkmark span:nth-child(3) {
+  transform: translateX(-50px);
+  -webkit-transform: translateX(-50px);
+  -moz-transform: translateX(-50px);
+  -ms-transform: translateX(-50px);
+  -o-transform: translateX(-50px);
+  opacity: 0;
+}
+.header-niz2{
+  position: relative;
+  top: 480px;
+  left: 0px;
+}
+.header-niz22{
+  position: absolute;
+  top: 195px;
+  left: 30px;
+  border-radius: 20%;
+}
+.header-text22{
+  position: absolute;
+  top: 170px;
+  left: 680px;
+  
+}
+.header-text23{
+  line-height: 29px;
+} 
+.btn-group{
+  position: absolute;
+  top: -100px;
+  left: 400px;
+}
+.button-2{
+  position: absolute;
+  top: -30px;
+  left: 300px;
+  
+}
+.button-3{
+  position: absolute;
+  top: 40px;;
+  left: 300px;
+}
+.niz-fon1{
+  border-radius: 20px;
+  
+}
+.header-text3{
+  position: absolute;
+  top: 540px;
+left: 300px;
+color: rgb(29, 29, 29);
+}
+.header-va{
+  position: absolute;
+  top: 630px;
+  left: 50px;
+}
+.header-text5{
+  position: absolute;
+  top: 630px;
+  left: 250px;
+  color:rgb(29, 29, 29);
+  font-size: 20px;
+}
+button {
+  appearance: none;
+  background-color: transparent;
+  border: 5% solid #1A1A1A;
+  border-radius: 30% 30%;
+  box-sizing: border-box;
+  color: #2e2e2e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 391px;
+  min-height: 3.75em;
+  min-width: 10px;
+  outline: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration:wheat;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+  position: absolute;
+  
+  left: -100px;
+ }
+ 
+ button:disabled {
+  pointer-events: none;
+ }
+ 
+ button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+ }
+ 
+ button:active {
+  box-shadow: none;
+  transform: translateY(0);
+ }
+ .header-logo-niz{
+  position: absolute;
+  top: 870px;
+  left: 220px;
+  border-radius: 30px;
+  
+ }
+ .border-niz{
+  border-radius: 40px;
+ }
+ .header-icon{
+  position: absolute;
+  top: 890px;
+  left: 350px;
+ }
+ .header-text16{
+  position: absolute;
+  top: 900px;
+  left: 600px;
+  color: #39503b;
+ }
+ .card {
+  position: absolute;
+  top: 1000px;
+  left: 280px;
+  border-radius: 30px;
+  width: 190px;
+  height: 254px;
+  background: rgb(134, 196, 144);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+ .card2 {
+  position: absolute;
+  top: 1000px;
+  left: 480px;
+  border-radius: 30px;
+  width: 190px;
+  height: 254px;
+  background: rgb(134, 196, 144);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+ .card3 {
+  position: absolute;
+  top: 1000px;
+  left: 680px;
+  border-radius: 30px;
+  width: 190px;
+  height: 254px;
+  background: rgb(134, 196, 144);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+ .card4 {
+  position: absolute;
+  top: 1000px;
+  left: 880px;
+  border-radius: 30px;
+  width: 190px;
+  height: 254px;
+  background: rgb(134, 196, 144);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+ .text-80{
+  position: absolute;
+  top: 1000px;
+  left: 300px;
+ }
+ .text-81{
+  position: absolute;
+  top: 1000px;
+  left: 510px;
+ }
+ .text-82{
+  position: absolute;
+  top: 1000px;
+  left: 715px;
+ }
+ .text-83{
+  position: absolute;
+  top: 1000px;
+  left: 925px;
+ }
+ .button-80{
+position: absolute;
+ }
+ .button-81{
+top: 400px;
+left: -110px;
+}.button-82{
+position: absolute;
+}.button-83{
+  top: 400px;
+  left: 90px;
+}.button-84{
+position: absolute;
+}.button-85{
+  top: 400px;
+  left: 290px;
+}.button-86{
+position: absolute;
+}.button-87{
+  top: 400px;
+  left: 490px;
+}
+.heade-rekl{
+  position: absolute;
+  top: 1300px;
+}
+.header-ideal{
+position: absolute;
+top: 1600px;
+}
+.header-psih{
+  position: absolute;
+  top: 1600px;
+  left: 100px;
+}
+.header-te4{
+  position: absolute;
+  top: 1600px;
+  left: 700px;
+}
+.header-knopka{
+  position: absolute;
+  top: 1350px;
+  left: 470px;
+}
+.nashprof{
+position: absolute;
+top: 2050px;
+left: 100px;
+font-size: 150%;
+}
+.nashprof1{
+font-size: 30%;
+}
+.slideshow{
+  position: absolute;
+  top: 2200px;
+}
+.icon1{
+  position: absolute;
+left: 10px;
+}
+.icon2{
+  position: absolute;
+  left: 195px;
+}
+.icon3{
+  position: absolute;
+  left: 395px;
+}
+.icon4{
+  position: absolute;
+  left: 595px;
+}
+.icon5{
+  position: absolute;
+  left: 795px;
+}
+.icon6{
+ position: absolute;
+  left: 995px;
+}
+.icon7{
+  position: absolute;
+  left: 1190px;
+}
+.header-nb1{
+  position: absolute;
+  top: 2150px;
+  z-index: -1;
+  border-radius: 50px;
+}
+.header-konec1{
+  position: absolute;
+  top: 2430px;
+  border-radius: 10px;
+}
+.iconviu{
+
+}
+.icon8{
+  position: absolute;
+  top: 2480px;
+  left: 90px;
+}
+.icon9{
+  position: absolute;
+  top: 2480px;
+  left: 180px;
+}
+.icon10{
+  position: absolute;
+  top: 2480px;
+  left: 270px;
+}
+.header-konec5{
+  position: absolute;
+  top: 2490px;
+  left: 800px;
+}
+
+
